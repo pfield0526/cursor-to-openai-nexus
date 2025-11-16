@@ -1453,7 +1453,7 @@ async function others(authToken, clientKey, checksum, cursorClientVersion, sessi
         headers: {
           'accept-encoding': 'gzip',
           'authorization': `Bearer ${authToken}`,
-          'connect-protocol-version': '1',
+          'connect-protocol-version': '2.0.34',
           'content-type': 'application/proto',
           'user-agent': 'connect-es/1.6.1',
           'x-client-key': clientKey,
@@ -1478,7 +1478,7 @@ async function others(authToken, clientKey, checksum, cursorClientVersion, sessi
         headers: {
           'accept-encoding': 'gzip',
           'authorization': `Bearer ${authToken}`,
-          'connect-protocol-version': '1',
+          'connect-protocol-version': '2.0.34',
           'content-type': 'application/proto',
           'user-agent': 'connect-es/1.6.1',
           'x-client-key': clientKey,
